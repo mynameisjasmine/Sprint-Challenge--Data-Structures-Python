@@ -2,7 +2,7 @@ class Node:
     def __init__(self, value=None, next_node=None):
         # the value at this linked list node
         self.value = value
-        # reference to the next node in the list
+        # reference to the next node in the list.
         self.next_node = next_node
 
     def get_value(self):
