@@ -81,10 +81,16 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
-tree = BinarySearchTree(value)
+tree = BinarySearchTree('name')
 
 
+for name_1 in names_1:
+       tree.insert(name_1)
+    
+for name_2 in names_2:
 
+    if tree.contains(name_2):
+        duplicates.append(name_2)
 
         
 
